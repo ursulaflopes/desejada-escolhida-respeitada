@@ -90,7 +90,7 @@ const CTASection = () => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-left">
               {[
-                "8 módulos completos em vídeo",
+                "4 E-books completos",
                 "Material complementar em PDF",
                 "Exercícios práticos",
                 "Acesso vitalício ao conteúdo",
