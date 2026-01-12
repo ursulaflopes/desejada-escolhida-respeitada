@@ -68,9 +68,11 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <Button variant="hero" size="xl" className="mb-4">
-              Quero me tornar uma mulher desejada
-            </Button>
+            <a href="https://pay.kiwify.com.br/eGP7JAG" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="xl" className="mb-4">
+                Quero me tornar uma mulher desejada
+              </Button>
+            </a>
             <p className="text-sm text-muted-foreground">
               Acesso imediato • Transformação real
             </p>

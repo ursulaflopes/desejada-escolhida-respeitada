@@ -82,9 +82,11 @@ const TransformationSection = () => {
               ))}
             </div>
 
-            <Button variant="gold" size="lg">
-              Quero essa transformação
-            </Button>
+            <a href="https://pay.kiwify.com.br/eGP7JAG" target="_blank" rel="noopener noreferrer">
+              <Button variant="gold" size="lg">
+                Quero essa transformação
+              </Button>
+            </a>
           </motion.div>
         </div>
       </div>
