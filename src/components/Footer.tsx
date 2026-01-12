@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import lotusOrnament from "@/assets/lotus-ornament.png";
+import coupleSilhouette from "@/assets/couple-silhouette.png";
 import { Heart } from "lucide-react";
 
 const Footer = () => {
@@ -14,9 +14,9 @@ const Footer = () => {
           transition={{ duration: 0.8 }}
         >
           <img 
-            src={lotusOrnament} 
+            src={coupleSilhouette} 
             alt="" 
-            className="w-16 mx-auto mb-6 opacity-60"
+            className="w-14 mx-auto mb-6 opacity-50"
           />
           
           <h3 className="font-serif text-2xl text-primary-foreground mb-2 italic">
