@@ -47,22 +47,24 @@ const CTASection = () => {
               O Método da Mulher Desejada
             </p>
             <div className="flex items-center justify-center gap-2 mb-6">
-              <span className="text-primary-foreground/60 text-lg line-through">R$ 497</span>
+              <span className="text-primary-foreground/60 text-lg line-through">R$ 197</span>
               <span className="bg-gold text-warm-brown text-sm font-bold px-3 py-1 rounded-full">
-                -40% OFF
+                -50% OFF
               </span>
             </div>
             <div className="text-primary-foreground mb-2">
               <span className="text-xl">12x de </span>
-              <span className="text-5xl md:text-6xl font-serif font-bold">R$ 24,70</span>
+              <span className="text-5xl md:text-6xl font-serif font-bold">R$ 10,03</span>
             </div>
             <p className="text-primary-foreground/70 mb-8">
-              ou R$ 297 à vista
+              ou R$ 97 à vista
             </p>
 
-            <Button variant="gold" size="xl" className="w-full md:w-auto">
-              Quero me tornar uma mulher desejada
-            </Button>
+            <a href="https://pay.kiwify.com.br/eGP7JAG" target="_blank" rel="noopener noreferrer">
+              <Button variant="gold" size="xl" className="w-full md:w-auto">
+                Quero me tornar uma mulher desejada
+              </Button>
+            </a>
 
             {/* Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 pt-8 border-t border-primary-foreground/20">
