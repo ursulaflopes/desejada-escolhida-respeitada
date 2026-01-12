@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-woman.jpg";
-import lotusOrnament from "@/assets/lotus-ornament.png";
+import coupleSilhouette from "@/assets/couple-silhouette.png";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -9,11 +9,11 @@ const HeroSection = () => {
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.img 
-          src={lotusOrnament} 
+          src={coupleSilhouette} 
           alt="" 
-          className="absolute top-10 left-1/2 -translate-x-1/2 w-24 md:w-32 opacity-60"
+          className="absolute top-6 left-1/2 -translate-x-1/2 w-20 md:w-24 opacity-40"
           initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 0.6, scale: 1 }}
+          animate={{ opacity: 0.4, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         />
       </div>
@@ -88,7 +88,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10 rounded-3xl" />
             <img 
               src={heroImage} 
-              alt="Mulher em paz e equilíbrio" 
+              alt="Mulher elegante e confiante" 
               className="w-full rounded-3xl shadow-elevated object-cover aspect-[16/9]"
             />
           </div>

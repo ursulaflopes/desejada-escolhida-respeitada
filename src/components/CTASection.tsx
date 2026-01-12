@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Check, Zap, Clock, ShieldCheck } from "lucide-react";
-import lotusOrnament from "@/assets/lotus-ornament.png";
+import coupleSilhouette from "@/assets/couple-silhouette.png";
 
 const CTASection = () => {
   return (
     <section className="py-20 md:py-28 bg-cream relative overflow-hidden">
       {/* Decorative elements */}
       <img 
-        src={lotusOrnament} 
+        src={coupleSilhouette} 
         alt="" 
-        className="absolute top-0 left-0 w-32 opacity-20 -translate-x-1/2 -translate-y-1/2"
+        className="absolute top-0 left-0 w-24 opacity-15 -translate-x-1/3 -translate-y-1/3"
       />
       <img 
-        src={lotusOrnament} 
+        src={coupleSilhouette} 
         alt="" 
-        className="absolute bottom-0 right-0 w-32 opacity-20 translate-x-1/2 translate-y-1/2"
+        className="absolute bottom-0 right-0 w-24 opacity-15 translate-x-1/3 translate-y-1/3 scale-x-[-1]"
       />
 
       <div className="section-container relative z-10">
